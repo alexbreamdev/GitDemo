@@ -11,20 +11,9 @@ struct ContentView: View {
     @State private var showSheet: Bool = false
     var body: some View {
         NavigationStack {
-            Button {
-                showSheet.toggle()
-            } label: {
-                Text("Show sheet".uppercased())
-                    .fontWeight(.bold)
-            }
-//            .buttonStyle(.borderedProminent)
-            .foregroundColor(.yellow)
-            .padding()
-            .background(Color.blue, in: RoundedRectangle(cornerRadius: 10))
-            .sheet(isPresented: $showSheet) {
+            NavigationLink("To modal View", destination: {
                 ModalView()
-                    .presentationDragIndicator(.visible)
-            }
+            })
             .navigationTitle("Hell title")
         }
         .padding()
