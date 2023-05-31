@@ -18,11 +18,10 @@ struct ContentView: View {
             }
             .buttonStyle(.borderedProminent)
             .sheet(isPresented: $showSheet) {
-                Text("This is a sheet")
-                    .bold()
+                ModalView()
                     .presentationDragIndicator(.visible)
             }
-            
+            .navigationTitle("Hell title")
         }
         .padding()
     }

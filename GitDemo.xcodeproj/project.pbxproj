@@ -11,6 +11,7 @@
 		2F955F212A271E71004B0956 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F955F202A271E71004B0956 /* ContentView.swift */; };
 		2F955F232A271E71004B0956 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2F955F222A271E71004B0956 /* Assets.xcassets */; };
 		2F955F262A271E71004B0956 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2F955F252A271E71004B0956 /* Preview Assets.xcassets */; };
+		2F955F2D2A271FC0004B0956 /* ModalView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F955F2C2A271FC0004B0956 /* ModalView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +20,7 @@
 		2F955F202A271E71004B0956 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		2F955F222A271E71004B0956 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2F955F252A271E71004B0956 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		2F955F2C2A271FC0004B0956 /* ModalView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModalView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +55,7 @@
 			children = (
 				2F955F1E2A271E70004B0956 /* GitDemoApp.swift */,
 				2F955F202A271E71004B0956 /* ContentView.swift */,
+				2F955F2C2A271FC0004B0956 /* ModalView.swift */,
 				2F955F222A271E71004B0956 /* Assets.xcassets */,
 				2F955F242A271E71004B0956 /* Preview Content */,
 			);
@@ -137,6 +140,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2F955F2D2A271FC0004B0956 /* ModalView.swift in Sources */,
 				2F955F212A271E71004B0956 /* ContentView.swift in Sources */,
 				2F955F1F2A271E70004B0956 /* GitDemoApp.swift in Sources */,
 			);
