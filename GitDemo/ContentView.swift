@@ -14,6 +14,7 @@ struct ContentView: View {
             NavigationLink("To modal View", destination: {
                 ModalView()
             })
+            .foregroundColor(.red)
             .navigationTitle("First View")
         }
         .padding()
