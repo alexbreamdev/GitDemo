@@ -14,9 +14,13 @@ struct ContentView: View {
             Button {
                 showSheet.toggle()
             } label: {
-                Text("Show sheet")
+                Text("Show sheet".uppercased())
+                    .fontWeight(.bold)
             }
-            .buttonStyle(.borderedProminent)
+//            .buttonStyle(.borderedProminent)
+            .foregroundColor(.yellow)
+            .padding()
+            .background(Color.blue, in: RoundedRectangle(cornerRadius: 10))
             .sheet(isPresented: $showSheet) {
                 ModalView()
                     .presentationDragIndicator(.visible)
