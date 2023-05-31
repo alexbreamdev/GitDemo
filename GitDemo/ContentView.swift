@@ -14,7 +14,7 @@ struct ContentView: View {
             NavigationLink("To modal View", destination: {
                 ModalView()
             })
-            .navigationTitle("Hell title")
+            .navigationTitle("First View")
         }
         .padding()
     }
